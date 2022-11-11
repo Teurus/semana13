@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="reclamaciones">
+    <center>
+       
+        <body background="Imagen/abstract-blur-food-truck.jpg" style="background-repeat: no-repeat; background-position: center center;">
+            </style>
+        <img SRC="Imagen/Logo Cafe.jpg"alt="neira" width="150" height="150" >
+        
+        <div>
+            <h2>FORMULARIO LIBRO DE RECLAMACIONES</h2>
+            <p>Conforme a lo establecido en código de la Protección y Defensa del consumidor contamos con un Libro de Reclamaciones a tu disposición para que puedas registrar tu queja o reclamo acerca de algún pedido o transacción realizada a través de nuestras páginas.</p>
+            <p>Neira Cafe S.A.C. </p>
+            <p> RUC: 20604889309</p>
+            <p>Ca. Enrique Palacios 1074, Miraflores 15074</p>
+        </div>
+        <br
+       <form >
+        <p class="Formulario"></p> 
+            <div><h2>1. IDENTIFICACIÓN DEL CONSUMIDOR RECLAMANTE</h2>
+
+                 <p>Fecha del incidente
+                    <input type="date" class="formularioinput"> 
+                </p>
+                <p>Nombre(s)
+                    <input type="text" placeholder="Escribe tu nombre"
+                     class="formularioinput">
+                </p>
+                <p>Apellidos
+                    <input type="text" placeholder="Escribe tus apellidos" 
+                    class="formularioinput">
+                </p>
+                <p>Correo
+                    <input type="email" placeholder="Escribe tu correo" 
+                    class="formularioinput">
+                </p>
+                <p>Teléfono
+                    <input type="" placeholder="Escribe tu telefono" maxlength="9"
+                    class="formularioinput">
+                </p>
+                <p>Tipo de documento
+                    <select name="" id="" class="formularioinput">
+                        <option value="">-Seleccione-</option>
+                        <option value="DNI">DNI</option>
+                        <option value="CE" >CE</option>
+                        
+                    </select>                        
+                </p>
+                <p>Nro de documento
+                    <input type=""maxlength="8" 
+                    class="formularioinput">
+                </p>
+                <p>Menor de edad
+                    <input type="checkbox" name="" id=""
+                    class="formularioinput">
+                </p>
+                <p>Departamentos
+                    <select name="selectDepartamento" onchange="cambia()" class="form-control" required="">
+                        <option value="">Seleccione</option>
+                        <option value="Amazonas">Amazonas</option>
+                        <option value="Ancash">Ancash</option>
+                        <option value="Apurímac">Apurímac</option>
+                        <option value="Arequipa">Arequipa</option>
+                        <option value="Ayacucho">Ayacucho</option>
+                        <option value="Cajamarca">Cajamarca</option>
+                        <option value="Callao">Callao</option>
+                        <option value="Cuzco">Cuzco </option>
+                        <option value="Huancavelica">Huancavelica</option>
+                        <option value="Huánuco">Huánuco</option>
+                        <option value="Ica">Ica</option>
+                        <option value="Junín">Junín</option>
+                        <option value="La_Libertad">La Libertad</option>
+                        <option value="Lambayeque">Lambayeque</option>
+                        <option value="Lima">Lima</option>
+                        <option value="Loreto">Loreto</option>
+                        <option value="Madre_de_Dios">Madre de Dios</option>
+                        <option value="Moquegua">Moquegua</option>
+                        <option value="Pasco">Pasco</option>
+                        <option value="Piura">Piura</option>
+                        <option value="Puno">Puno</option>
+                        <option value="San_Martín">San Martín</option>
+                        <option value="Tacna">Tacna</option>
+                        <option value="Tumbes">Tumbes</option>
+                        <option value="Ucayali">Ucayali</option>
+                        </select>    
+                </p>
+                <p>Provincias
+                    <input type="text" class="formularioinput">
+                            
+                </p>
+                <p>Distrito
+                    <input type="text" class="formularioinput">
+                 </p>
+                 <p> Dirección
+                    <input type="text" class="formularioinput">
+                </p>
+            </div> 
+    
+            <div><h2>2. IDENTIFICACIÓN DEL BIEN CONTRATADO</h2>
+                <p> Tipo 
+                    <input type="checkbox" name="tipo" class="formularioinput">Producto
+                    <input type="checkbox" name="tipo" class="formularioinput">Servicio
+                </p>
+                <p> Monto Reclamado
+                    <input type=""
+                    class="formularioinput">   
+                </p>
+                <p> Descripcion para monto reclamado
+                    <input type="text"
+                    class="formularioinput">   
+                </p>
+            </div>
+            <div><h2>3. DETALLE DE LA RECLAMACION Y PEDIDO DEL CONSUMIDORs</h2>
+                <p>Reclamacion
+                    
+                 <input type="radio"name="Re"  class="formularioinput">Reclamo
+                 <input type="radio"name="Re"  class="formularioinput">Queja
+                 
+                </p>
+                <p> Número de pedido
+                    <input type=""
+                    class="formularioinput"> 
+                </p>
+                <p>Fecha de pedido
+                    <input type="date"
+                    class="formularioinput">
+                </p>
+                <p> Detalle
+                    <input type="text"
+                    class="formularioinput">   
+                </p>
+                <p> Pedido en concreto
+                    <input type="text"
+                    class="formularioinput">   
+                </p>
+            
+                <form class="formulario__submit">
+                <input type="submit" >
+                </form>
+            </div>
+            <script>
+                document.getElementById("provincia")
+            </script>
+
+        </form>
+        
+    </center>
+</div>  
+</body>
+</html>
